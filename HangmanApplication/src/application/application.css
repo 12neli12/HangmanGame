@@ -1,0 +1,109 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+*{
+	-fx-font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-fill: white;
+}
+
+.description {
+	-fx-fill: #F1F1F1;
+	-fx-text-alignment: center;
+}
+
+.root {
+	-fx-background-image: url(https://i.pinimg.com/originals/d5/23/fc/d523fc1a683c8627f3e619b32bd412a6.png);
+	-fx-background-size:cover;
+}
+
+.next , .save {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ED0CFF;
+    -fx-border-width: 2;
+    -fx-border-color: #ED0CFF;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.next:hover , .save:hover{
+    -fx-text-fill: #EF2DFF;
+    -fx-border-color: #EF2DFF;
+}
+
+.next:pressed , .save:pressed{
+    -fx-background-color: transparent;
+    -fx-border-color: #BE00CE;
+    -fx-text-fill: #BE00CE;
+    -fx-font-weight: bold;
+}
+
+.inputBox {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-width: 2;
+	-fx-font-weight: bold;
+}
+
+
+.inputLabel {
+	-fx-font-size:15;
+	-fx-text-fill:white;
+}
+
+.input {
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-border-color: transparent transparent white transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-font-weight: bold;
+	
+}
+
+.guess-button{
+	-fx-background-color: transparent;
+    -fx-text-fill: #0CFF00;
+    -fx-border-width: 2;
+    -fx-border-color: #0CFF00;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.guess-button:hover {
+	-fx-text-fill: #36FF2C;
+    -fx-border-color: #36FF2C;
+}
+
+.guess-button:pressed {
+	-fx-background-color: transparent;
+    -fx-border-color: #0BE200;
+    -fx-text-fill: #0BE200;
+    -fx-font-weight: bold;
+}
+
+.try-again-button{
+	-fx-background-color: transparent;
+    -fx-text-fill: #FF0000;
+    -fx-border-width: 2;
+    -fx-border-color: #FF0000;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.try-again-button:hover {
+	-fx-text-fill: #FF1212;
+    -fx-border-color: #FF1212;
+}
+
+.try-again-button:pressed {
+	-fx-background-color: transparent;
+    -fx-border-color: #E10000;
+    -fx-text-fill: #E10000;
+    -fx-font-weight: bold;
+}
